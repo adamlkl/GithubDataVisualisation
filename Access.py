@@ -1,33 +1,22 @@
 from github import Github
-import unittest
 
-token = "36d351745b0d1930d39ea54ac6c61d8adc9a2889"
-
-
-class GithubAccessTest(unittest.TestCase):
-
-    def testConstructor(self):
-        g = Github(token)
-        user = g.get_user("Bloomberg")
-        self.assertEqual(user.login, u'bloomberg')
-        self.assertEqual(user.name, 'Bloomberg')
+token = "fceed303e67495273a75c12b170080e7b515fcc9"
 
 
 # First create a Github instance using an access token
-def main():
+def crawler():
     g = Github(token)
     user = g.get_user("Bloomberg")
 
     for repo in user.get_repos():
         print(repo.name)
 
-    repositories = g.search_repositories(query='language:c++')
-    for repo in repositories:
-        print(repo)
-
     print("Repository Name: bqplot")
-    repo = user.get_repos("Bloomberg/bqplot")
-    print("Stars: "+repo.get_topics())
+    repo2 = user.get_repos("Bloomberg/bde")
+    for repo in repo2:
+        topics = repo.get_topics()
+        for c in topics:
+            print(c)
 
     print("Contents: ")
     contents = repo.get_contents("")
@@ -43,5 +32,9 @@ def main():
         print(contributor.login)
 
 
+def main():
+    crawler()
+
+
 if __name__ == '__main__':
-    unittest.main()
+    main()
