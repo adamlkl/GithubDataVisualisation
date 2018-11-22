@@ -1,8 +1,10 @@
 from github import Github
 from collections import OrderedDict
 from pymongo import MongoClient
-import operator
+import collections
 import json
+import operator
+
 
 token = "fceed303e67495273a75c12b170080e7b515fcc9"
 MONGODB_HOST = 'localhost'
@@ -51,31 +53,33 @@ def crawler():
         })
     with open('repo_data.json', 'w') as outfile:
         json.dump(repo_data, outfile)
-
     data = dict()
     data["ContributorsData"] = {}
 
     for repo in user.get_repos():
-        print(repo.name)
-        contributors = repo.get_stats_contributors()
-        data["ContributorsData"][""+repo.name] = []
-        total_commits = repo.get_stats_participation()
-        data["ContributorsData"]["" + repo.name].append({
-            "TotalCommits": total_commits
-        })
-        for c in contributors:
-            user_total_commits = c.total
-            data["ContributorsData"][""+repo.name].append({
-                "Name": c.author.login,
-                "UserTotalCommits": user_total_commits
-            })
+        if repo.name != "chromium.bb":
+            print(repo.name)
+            contributors = repo.get_stats_contributors()
+            if isinstance(contributors, collections.Iterable):
+                data["ContributorsData"][""+repo.name] = []
+                total_commits = 0
+                for c in contributors:
+                    user_total_commits = c.total
+                    total_commits += c.total
+                    data["ContributorsData"][""+repo.name].append({
+                        "Name": c.author.login,
+                        "UserTotalCommits": user_total_commits
+                    })
+                data["ContributorsData"]["" + repo.name].append({
+                    "TotalCommits": total_commits
+                })
+
     with open('contributors_data.json', 'w') as outfile:
         json.dump(data, outfile)
 
 
 def github_visualisation_projects():
-    client = MongoClient( MONGODB_HOST, MONGODB_PORT)
-
+    client = MongoClient(MONGODB_HOST, MONGODB_PORT)
 
 
 def main():
