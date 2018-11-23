@@ -70,7 +70,7 @@ def crawler():
                         "Name": c.author.login,
                         "UserTotalCommits": user_total_commits
                     })
-                data["ContributorsData"]["" + repo.name].append({
+                data["ContributorsData"]["" + repo.naggme].append({
                     "TotalCommits": total_commits
                 })
 

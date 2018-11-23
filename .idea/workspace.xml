@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a87a96-892e-4f44-ac93-255d7b82979a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Access.py" beforeDir="false" afterPath="$PROJECT_DIR$/Access.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contributors_Data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Contributors_Data.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,27 +32,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Access.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
+            <state relative-caret-position="347">
+              <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo_data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7402" selection-start-column="7402" selection-end-column="7402" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Contributors_Data.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -185,11 +169,12 @@
       <workItem from="1542580337597" duration="90000" />
       <workItem from="1542580499704" duration="154000" />
       <workItem from="1542890236331" duration="14832000" />
+      <workItem from="1542912458820" duration="220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15076000" />
+    <option name="totallyTimeSpent" value="15296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -202,8 +187,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27786753" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2819063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -260,7 +246,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Contributors_Data.json">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16942" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repo_data.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -271,8 +259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Access.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
+        <state relative-caret-position="347">
+          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
