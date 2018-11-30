@@ -5,6 +5,7 @@ import json
 from bson import json_util
 from bson.json_util import dumps
 
+
 app = Flask(__name__)
 MONGODB_HOST = 'localhost'
 MONGODB_PORT = 27017
@@ -22,15 +23,14 @@ def index():
 def github_visualisation_projects():
     connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
     collection = connection[DATABASE_NAME][COLLECTION_NAME]
-    projects = collection.find(projection=FIELDS)
-    json_projects = {}
-    json_projects["RepositoryData"] = {}
+    projects = collection.find(projection=FIELDS, limit=10000)
+    json_projects = []
     for project in projects:
-        for projectss in project:
-            json_projects.append(projectss)
+        json_projects.append(project)
     json_projects = json.dumps(json_projects, default=json_util.default)
     connection.close()
     return json_projects
+
 
 if __name__ == "__main__":
     app.run(debug=True)
