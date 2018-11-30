@@ -22,31 +22,49 @@ def get_top_count(data, n=2, order=False):
 def crawler():
     g = Github(token)
     user = g.get_user("Bloomberg")
-
+    """
     repo_data = dict()
-    repo_data["RepositoryData"] = {}
     for repo in user.get_repos():
-        repo_data["RepositoryData"]["" + repo.name] = []
-        repo_data["RepositoryData"]["" + repo.name].append({
+        repo_data["" + repo.name] = []
+        repo_data["" + repo.name].append({
             "Size": repo.size
         })
         y = repo.get_languages()
         to = get_top_count(y, n=5)
         loc = 0
         for x in to:
-            repo_data["RepositoryData"]["" + repo.name].append({
+            repo_data["" + repo.name].append({
                 "Language": x,
                 "LinesOfCode": to[x]
             })
             loc += to[x]
-        repo_data["RepositoryData"]["" + repo.name].append({
+        repo_data["" + repo.name].append({
             "TotalLOC": loc
-        })
-    with open('repo_data.json', 'w') as outfile:
-        json.dump(repo_data, outfile)
-    data = dict()
-    data["ContributorsData"] = {}
+        })"""
+    repo_data = []
+    for repo in user.get_repos():
+        repository = {}
+        repository.update({"Name": repo.name})
+        repository.update({"Size": repo.size})
+        y = repo.get_languages()
+        to = get_top_count(y, n=5)
+        loc = 0
+        lang = []
+        for x in to:
+            lang.append({
+                "Language": x,
+                "LinesOfCode": to[x]
+            })
+            loc += to[x]
+        repository.update({"Languages" : lang})
+        repository.update({"TotalLOC" : loc})
+        repo_data.append(repository)
 
+
+    with open('repo_data2.json', 'w') as outfile:
+        json.dump(repo_data, outfile)
+        """
+    data = dict()
     for repo in user.get_repos():
         if repo.name != "chromium.bb":
             print(repo.name)
@@ -66,8 +84,7 @@ def crawler():
                 })
 
     with open('contributors_data.json', 'w') as outfile:
-        json.dump(data, outfile)
-
+        json.dump(data, outfile)"""
 
 def main():
     crawler()

@@ -11,7 +11,7 @@ MONGODB_HOST = 'localhost'
 MONGODB_PORT = 27017
 DATABASE_NAME = 'bloombergdata'
 COLLECTION_NAME = 'repo_data'
-FIELDS = {"RepositoryData":True, "_id":0}
+FIELDS = {'Name': True, 'Size': True, 'Languages': True, 'TotalLoc': True, "_id": False}
 
 
 @app.route("/")
@@ -19,7 +19,7 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/bloombergdata/repo_data")
+@app.route("/bloombergdata/repo_data2")
 def github_visualisation_projects():
     connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
     collection = connection[DATABASE_NAME][COLLECTION_NAME]
