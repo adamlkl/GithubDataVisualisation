@@ -1,15 +1,11 @@
 from github import Github
 from collections import OrderedDict
-from pymongo import MongoClient
 import collections
 import json
 import operator
 
 
 token = "fceed303e67495273a75c12b170080e7b515fcc9"
-MONGODB_HOST = 'localhost'
-MONGODB_PORT = 27017
-database_name = "GithubVisualisation"
 
 
 # sort the dict according to their values of their keys
@@ -21,11 +17,6 @@ def get_top_count(data, n=2, order=False):
     if order:
         return OrderedDict(top)
     return dict(top)
-
-
-def get_top_countr(a,n):
-    sorted(range(len(a)), key=lambda i: a[i], reverse=True)[:2]
-
 
 # First create a Github instance using an access token
 def crawler():
@@ -76,10 +67,6 @@ def crawler():
 
     with open('contributors_data.json', 'w') as outfile:
         json.dump(data, outfile)
-
-
-def github_visualisation_projects():
-    client = MongoClient(MONGODB_HOST, MONGODB_PORT)
 
 
 def main():
