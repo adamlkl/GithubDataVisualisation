@@ -1,23 +1,33 @@
-        var ndx = crossfilter([{"Name": "airflow", "Size": 97186, "Languages": [{"Language": "Python", "LinesOfCode": 4276760}, {"Language": "JavaScript", "LinesOfCode": 1385403}, {"Language": "HTML", "LinesOfCode": 280721}, {"Language": "CSS", "LinesOfCode": 68968}, {"Language": "Shell", "LinesOfCode": 47989}], "TotalLOC": 6059841}, {"Name": "amazonka", "Size": 146914, "Languages": [{"Language": "Haskell", "LinesOfCode": 32686399}, {"Language": "Protocol Buffer", "LinesOfCode": 18815}, {"Language": "Shell", "LinesOfCode": 7060}, {"Language": "Makefile", "LinesOfCode": 4989}], "TotalLOC": 32717263}, {"Name": "angular.js", "Size": 98024, "Languages": [{"Language": "JavaScript", "LinesOfCode": 6680547}, {"Language": "HTML", "LinesOfCode": 84027}, {"Language": "Shell", "LinesOfCode": 21969}, {"Language": "PHP", "LinesOfCode": 7222}, {"Language": "CSS", "LinesOfCode": 3638}], "TotalLOC": 6797403}, {"Name": "apache-spark-on-k8s", "Size": 264949, "Languages": [{"Language": "Scala", "LinesOfCode": 21149594}, {"Language": "Java", "LinesOfCode": 2715989}, {"Language": "Python", "LinesOfCode": 2071544}, {"Language": "R", "LinesOfCode": 876839}, {"Language": "Shell", "LinesOfCode": 151958}], "TotalLOC": 26965924}, {"Name": "avro", "Size": 12053, "Languages": [{"Language": "Java", "LinesOfCode": 3102006}, {"Language": "C", "LinesOfCode": 1006158}, {"Language": "C#", "LinesOfCode": 811965}, {"Language": "C++", "LinesOfCode": 655275}, {"Language": "Python", "LinesOfCode": 532288}], "TotalLOC": 6107692}, {"Name": "aws-js-s3-explorer", "Size": 22, "Languages": [{"Language": "HTML", "LinesOfCode": 26467}], "TotalLOC": 26467}, {"Name": "babel", "Size": 34908, "Languages": [{"Language": "JavaScript", "LinesOfCode": 3192364}, {"Language": "Makefile", "LinesOfCode": 4355}, {"Language": "HTML", "LinesOfCode": 3207}, {"Language": "Shell", "LinesOfCode": 1021}, {"Language": "TypeScript", "LinesOfCode": 130}], "TotalLOC": 3201077}, {"Name": "bazel", "Size": 466655, "Languages": [{"Language": "Java", "LinesOfCode": 29828001}, {"Language": "Python", "LinesOfCode": 1420883}, {"Language": "C++", "LinesOfCode": 1182817}, {"Language": "Shell", "LinesOfCode": 1178907}, {"Language": "Smarty", "LinesOfCode": 487938}], "TotalLOC": 34098546}, {"Name": "bazel-remote-apis", "Size": 27, "Languages": [{"Language": "Python", "LinesOfCode": 1157}], "TotalLOC": 1157}, {"Name": "bde", "Size": 100833, "Languages": [{"Language": "C++", "LinesOfCode": 98010158}, {"Language": "Perl", "LinesOfCode": 379933}, {"Language": "C", "LinesOfCode": 156976}, {"Language": "Roff", "LinesOfCode": 65678}, {"Language": "Python", "LinesOfCode": 17049}], "TotalLOC": 98629794}, {"Name": "bde-allocator-benchmarks", "Size": 28535, "Languages": [{"Language": "C++", "LinesOfCode": 30463353}, {"Language": "Groff", "LinesOfCode": 22824361}, {"Language": "C", "LinesOfCode": 132413}, {"Language": "Objective-C", "LinesOfCode": 86496}, {"Language": "Shell", "LinesOfCode": 61562}], "TotalLOC": 53568185}, {"Name": "bde-tools", "Size": 3387, "Languages": [{"Language": "Python", "LinesOfCode": 639118}, {"Language": "Perl", "LinesOfCode": 293579}, {"Language": "CMake", "LinesOfCode": 81777}, {"Language": "Shell", "LinesOfCode": 23364}, {"Language": "C++", "LinesOfCode": 12271}], "TotalLOC": 1050109}, {"Name": "bde_verify", "Size": 3975, "Languages": [{"Language": "C++", "LinesOfCode": 1449878}, {"Language": "Makefile", "LinesOfCode": 149866}, {"Language": "Perl", "LinesOfCode": 48513}, {"Language": "C#", "LinesOfCode": 25610}, {"Language": "CMake", "LinesOfCode": 12527}], "TotalLOC": 1686394}, {"Name": "bloomberg.github.io", "Size": 90, "Languages": [{"Language": "HTML", "LinesOfCode": 6962}, {"Language": "CSS", "LinesOfCode": 6917}, {"Language": "JavaScript", "LinesOfCode": 5041}], "TotalLOC": 18920}, {"Name": "blpapi-hs", "Size": 392, "Languages": [{"Language": "Haskell", "LinesOfCode": 153229}, {"Language": "C", "LinesOfCode": 3986}], "TotalLOC": 157215}, {"Name": "blpapi-http", "Size": 581, "Languages": [{"Language": "TypeScript", "LinesOfCode": 259611}, {"Language": "JavaScript", "LinesOfCode": 16409}, {"Language": "Makefile", "LinesOfCode": 2938}, {"Language": "Shell", "LinesOfCode": 1997}], "TotalLOC": 280955}, {"Name": "blpapi-node", "Size": 47073, "Languages": [{"Language": "C++", "LinesOfCode": 50883}, {"Language": "JavaScript", "LinesOfCode": 42781}, {"Language": "Python", "LinesOfCode": 2950}], "TotalLOC": 96614}, {"Name": "bqplot", "Size": 17756, "Languages": [{"Language": "JavaScript", "LinesOfCode": 676250}, {"Language": "Python", "LinesOfCode": 217370}, {"Language": "TypeScript", "LinesOfCode": 26713}, {"Language": "CSS", "LinesOfCode": 7868}, {"Language": "GLSL", "LinesOfCode": 1052}], "TotalLOC": 929253}, {"Name": "CartoAssets", "Size": 8383, "Languages": [{"Language": "CSS", "LinesOfCode": 129020}, {"Language": "HTML", "LinesOfCode": 36839}, {"Language": "JavaScript", "LinesOfCode": 3245}], "TotalLOC": 169104}, {"Name": "cartodb", "Size": 349153, "Languages": [{"Language": "Ruby", "LinesOfCode": 3782133}, {"Language": "JavaScript", "LinesOfCode": 3665623}, {"Language": "HTML", "LinesOfCode": 3199539}, {"Language": "CSS", "LinesOfCode": 704529}, {"Language": "Game Maker Language", "LinesOfCode": 182471}], "TotalLOC": 11534295}, {"Name": "cartodb-postgresql", "Size": 905, "Languages": [{"Language": "PLpgSQL", "LinesOfCode": 186145}, {"Language": "Shell", "LinesOfCode": 49902}, {"Language": "Makefile", "LinesOfCode": 3474}, {"Language": "Ruby", "LinesOfCode": 1398}], "TotalLOC": 240919}, {"Name": "CartoDB-SQL-API", "Size": 3316, "Languages": [{"Language": "JavaScript", "LinesOfCode": 530788}, {"Language": "Shell", "LinesOfCode": 8826}, {"Language": "HTML", "LinesOfCode": 8463}, {"Language": "Makefile", "LinesOfCode": 765}, {"Language": "Python", "LinesOfCode": 589}], "TotalLOC": 549431}, {"Name": "cartodb.css", "Size": 155, "Languages": [], "TotalLOC": 0}, {"Name": "cartodb.js", "Size": 28247, "Languages": [{"Language": "JavaScript", "LinesOfCode": 978169}, {"Language": "CSS", "LinesOfCode": 121327}, {"Language": "HTML", "LinesOfCode": 36801}, {"Language": "Makefile", "LinesOfCode": 3363}, {"Language": "Ruby", "LinesOfCode": 1297}], "TotalLOC": 1140957}, {"Name": "Catalyst-Authentication-Credential-GSSAPI", "Size": 16, "Languages": [{"Language": "Perl", "LinesOfCode": 10406}, {"Language": "XS", "LinesOfCode": 5938}, {"Language": "Perl 6", "LinesOfCode": 1528}], "TotalLOC": 17872}, {"Name": "chef", "Size": 100160, "Languages": [{"Language": "Ruby", "LinesOfCode": 8905229}, {"Language": "HTML", "LinesOfCode": 566655}, {"Language": "Roff", "LinesOfCode": 270440}, {"Language": "JavaScript", "LinesOfCode": 49788}, {"Language": "Shell", "LinesOfCode": 22939}], "TotalLOC": 9815051}, {"Name": "chef-bach", "Size": 7507, "Languages": [{"Language": "Ruby", "LinesOfCode": 936133}, {"Language": "HTML", "LinesOfCode": 327558}, {"Language": "Shell", "LinesOfCode": 124699}, {"Language": "Python", "LinesOfCode": 12012}, {"Language": "Dockerfile", "LinesOfCode": 912}], "TotalLOC": 1401314}, {"Name": "chef-bcpc", "Size": 5618, "Languages": [{"Language": "Ruby", "LinesOfCode": 467278}, {"Language": "HTML", "LinesOfCode": 377285}, {"Language": "Shell", "LinesOfCode": 84988}, {"Language": "Python", "LinesOfCode": 78303}, {"Language": "SQLPL", "LinesOfCode": 9464}], "TotalLOC": 1017318}, {"Name": "chef-bcs", "Size": 1253, "Languages": [{"Language": "Ruby", "LinesOfCode": 201666}, {"Language": "Shell", "LinesOfCode": 185978}, {"Language": "HTML", "LinesOfCode": 64345}, {"Language": "Python", "LinesOfCode": 29235}, {"Language": "Go", "LinesOfCode": 767}], "TotalLOC": 481991}, {"Name": "chef-umami", "Size": 131, "Languages": [{"Language": "Ruby", "LinesOfCode": 43373}, {"Language": "Vim script", "LinesOfCode": 439}], "TotalLOC": 43812}]);
+queue()
+    .defer(d3.json, '/bloombergdata/repo_data2')
+    .await(makeGraphs);
+
+function makeGraphs(error, projectsJson){
+    var bloomberg_repo = projectsJson;
+    var ndx = crossfilter(bloomberg_repo);
+    var repoName = ndx.dimension(function (d) {return d.Name;});
+    var repoSize = ndx.dimension(function (d) {return d.Size;});
+    var lang = ndx.dimension(function (d) {return d.Languages;},true);
+    var langGroup = lang.group()
+
+    var repoLOC = ndx.dimension(function (d) {
+        return d.TotalLOC;
+    });
 
 
-        // tell crossfilter that this dimension isArray=true
-		var bloom_repo = ndx.dimension(item => item.Name);
-		var repo_by_size = bloom_repo.group().reduceSum(item => item.Size);
+    var all = ndx.groupAll();
+    var rnamebySize = repoName.group().reduceSum();
+    var LOCbyName = repoLOC.group();
+    var sizebyName = repoSize.group();
+    var pie1 = dc.pieChart('#pie')
+        .width(500)
+        .height(500)
+        .innerRadius(25)
+        .label(function(d) {
+                    return d.key + ': ' + d.value;
+            })
+        .dimension(dimensionCategory)
+        .group(quantityByCategory);
 
 
-		var chart = dc.pieChart("#topics-array-rows")
-         chart
-    	     .label(function(d) {return d.key})
-             .height(750)
-             .width(750)
-             .innerRadius(150)
-             .dimension(bloom_repo)
-             .group(repo_by_size)
-             .slicesCap(12)
-             .minAngleForLabel(0.2)
-             .drawPaths(true)
-             .legend(dc.legend());
-
-
-        dc.renderAll();
+};
