@@ -7,5 +7,97 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.1/dc.js"></script>
 </head>
 <body>
-    <script src='../static/js/graph.js' type='text/javascript'></script>
+	<div id="repo-pie" style="margin-top: 50px;margin-left: 100px;"></div>
+    <div id="lang-pie" style="margin-top: 50px;margin-left: 100px;"></div>
+    <div id="lan-pie" style="margin-top: 50px;margin-left: 100px;"></div>
+    <script>
+          function remove_bins(source_group) { // (source_group, bins...}
+              var bins = Array.prototype.slice.call(arguments, 1);
+              return {
+                  all: function() {
+                      return source_group.all().filter(function(d) {
+                          return bins.indexOf(d.key) === -1;
+                      });
+                  }
+              };
+          }
+
+           var bloomberg_repo = d3.json("../repo_data2.json", function(data) {
+                console.log(data[0]);
+            });
+           var ndx = crossfilter(bloomberg_repo);
+              // tell crossfilter that this dimension isArray=true
+           var bloom_repo = ndx.dimension(item => item.Name);
+           var repo_by_size = bloom_repo.group().reduceSum(item => item.Size);
+
+           //display language
+           var bloom_lang = ndx.dimension(function(d) {
+               return (d.Languages) ? d.Languages.map(o => o.Language) : ['---']
+           },true);
+
+           var reduce_by_Name = bloom_lang.group().reduce(
+               (p, v) => {
+                   dataKey = v.Name;
+                   if (dataKey in p.values) {
+                       p.values[dataKey]++;
+                   }
+                   else {
+                       p.values[dataKey]=1;
+                       p.count++;
+                   }
+                   return p;
+               },
+               (p, v) => {
+                   dataKey = v.Name;
+                   p.values[dataKey]--;
+                   if (p.values[dataKey]===0) {
+                       delete p.values[dataKey];
+                       p.count--;
+                   }
+                   return p;
+               },
+               () => {
+                   return {count : 0, values: {}};
+               }
+           );
+
+           reduce_by_Name = remove_bins(reduce_by_Name,'---');
+
+           var chart = dc.pieChart("#repo-pie");
+           var chart2 = dc.pieChart("#lang-pie");
+
+           chart
+               .label(function(d) {return d.key})
+               .height(900)
+               .width(900)
+               .innerRadius(150)
+               .dimension(bloom_repo)
+               .group(repo_by_size)
+               .slicesCap(12)
+               .minAngleForLabel(0.2)
+               .drawPaths(true)
+               .legend(dc.legend());
+
+
+           chart2
+               .width(900)
+               .height(900)
+               .radius(400)
+               .dimension(bloom_lang)
+               .group(reduce_by_Name)
+               .innerRadius(150)
+               .minAngleForLabel(0.1)
+               .valueAccessor(data => data.value.count)
+               .legend(dc.legend())
+               .label(function (d) {
+                   let label = d.key;
+                   label += ' (' + d.value.count + ')';
+                   return label;
+               });
+
+          dc.renderAll();
+
+
+  </script>
+
 </body>
