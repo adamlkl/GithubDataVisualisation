@@ -23,7 +23,26 @@ def crawler():
     g = Github(token)
     user = g.get_user("Bloomberg")
 
-
+    repo_data = []
+    for repo in user.get_repos():
+        repository = {}
+        repository.update({"Name": repo.name})
+        repository.update({"Size": repo.size})
+        y = repo.get_languages()
+        to = get_top_count(y, n=5)
+        loc = 0
+        lang = []
+        for x in to:
+            lang.append({
+                "Language": x,
+                "LinesOfCode": to[x]
+            })
+            loc += to[x]
+        repository.update({"Languages": lang})
+        repository.update({"TotalLOC": loc})
+        repo_data.append(repository)
+    with open('repo_data2.json', 'w') as outfile:
+        json.dump(repo_data, outfile)
 
     c_data = []
     for repo in user.get_repos():
