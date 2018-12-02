@@ -1,5 +1,6 @@
 # GithubDataVisualisation
 
+## Set up ##
 You will need <a href="http://flask.pocoo.org/">Flask</a>, 
 <a href="https://pygithub.readthedocs.io/en/latest/introduction.html">PyGithub</a>, 
 <a href = "https://api.mongodb.com/python/current/">PyMongo</a> for this program to work.
