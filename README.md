@@ -8,8 +8,32 @@ I have removed my access token to extract json information from Github, but if y
 you can request for it at <a href="https://github.com/settings/tokens">Github Access Token Generator Page</a>
 
 ## Running 
-
 `python app.py`
+
+**_However, obviously this won't work by simply cloning my repo won't work._** As mentioned you need to download the above 
+tools for it.
+
+Another alternative that I have used is utilising PyCharm to make the assignment, to avoid downloading massive libraries.
+Pycharm provide convenient interpreters so you dont have to go through a lot of work to set up your working directory and 
+environment.
+
+When a remote Python interpreter is added, at first the PyCharm helpers are copied to the remote host. PyCharm helpers are 
+needed to run remotely the packaging tasks, debugger, tests and other PyCharm features. Next, the skeletons for binary 
+libraries are generated and copied locally. Also all the Python library sources are collected from the Python paths on a 
+remote host and copied locally along with the generated skeletons. Storing skeletons and all Python library sources locally
+is required for resolve and completion to work correctly. PyCharm checks remote helpers version on every remote run, so if 
+you update your PyCharm version, the new helpers will be uploaded automatically and you don't need to recreate remote interpreter. 
+SFTP support is required for copying helpers to the server.
+
+Python interpreters can be configured on the following levels:
+
+Current project: selected Python interpreter will be used for the current project.
+
+New project: selected Python interpreter will be used for the new project instead of the default one.
+
+More explanation can be found at <a href="https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html">here</a>.
+
+
 
 For this assignment, I have decided to compare the size of each repository in the <a href="https://www.google.ie/search?q=loomberg+github&oq=loomberg+github&aqs=chrome..69i57j0l5.4607j0j4&sourceid=chrome&ie=UTF-8">
 Bloomberg repository</a> and then the languages they have used. <br />
