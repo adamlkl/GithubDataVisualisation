@@ -77,13 +77,17 @@ This is the snapshot of the result program.
 * Pie chart displaying repositories that uses the corresponding languages selected.<br />
 <img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res4.PNG">
 
+## Demo Video ##
+<img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res4.PNG" />
+
+
+## Repo_Data2.json Link
+
 I have also set up a database for the project using mongodb to store repo_data2.json. The advantage of setting up a database
 is that eventually I wanted to display more than just one Github Repository, and this would require massive amount of fast 
 querying, which we can let the database deal with, unless you want your program to crash. 
 
 To view the stored json values, please set your link to 
-
-## Repo_Data2.json Link
 
 `http://127.0.0.1:5000/bloombergdata/repo_data2`
 
