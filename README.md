@@ -52,8 +52,10 @@ Tools I have used for this assignment are <a href="https://d3js.org/">d3.js</a>,
 
 By leveraging crossfilter's exquisite filtering capabilities, I can show information of size of each repo, (in this case 
 I have changed it to the top 10 since there are way too much repositories in Bloomberg Github Account). By clicking on each 
-segments on the pie chart, you can see languages used in the corresponding repo(I am trying to make it work with loc of each languages
-but it's not easy with crossfilter). If the pie chart came out empty, chances are I am prevented from accessing it when I
+segments on the pie chart, **_you can see languages used in the corresponding repo_**(I am trying to make it work with loc of each languages
+but it's not easy with crossfilter). **_You can also select the languages and display the repositories that uses them._**
+
+If the pie chart came out empty, chances are I am prevented from accessing it when I
 was extracting it, there are 2 instances that I have found to have this problem: Chromium.bb and TypeScript. I have removed
 Chromium.bb as it's size is too big, approximately more than 10 times larger than the 2nd largest repository. So I decided 
 to take it out to restore the balance between arcs in the pie chart.
@@ -70,6 +72,10 @@ This is the snapshot of the result program.
 <img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res1.PNG">
 * Pie chart displaying size and languages used in combined github repo. <br />
 <img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res2.PNG">
+* Pie chart displaying repositories that uses the corresponding language selected.<br />
+<img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res3.PNG">
+* Pie chart displaying repositories that uses the corresponding languages selected.<br />
+<img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res4.PNG">
 
 I have also set up a database for the project using mongodb to store repo_data2.json. The advantage of setting up a database
 is that eventually I wanted to display more than just one Github Repository, and this would require massive amount of fast 
