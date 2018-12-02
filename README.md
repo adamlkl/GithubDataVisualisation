@@ -44,8 +44,11 @@ to take it out to restore the balance between arcs in the pie chart.
 
 This is the snapshot of the result program. 
 
+* Pie chart displaying size and languages used in whole github repo. <br />
 <img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20origin.PNG">
+* Pie chart displaying size and languages used in one github repo. <br />
 <img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res1.PNG">
+* Pie chart displaying size and languages used in combined github repo. <br />
 <img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res2.PNG">
 
 I have also set up a database for the project using mongodb to store repo_data2.json. The advantage of setting up a database
@@ -58,6 +61,6 @@ To view the stored json values, please set your link to
 
 `http://127.0.0.1:5000/bloombergdata/repo_data2`
 
-The result should come as below.
+The result should come as below. <br />
 
 <img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/repo_data2%20in%20json.PNG">

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a87a96-892e-4f44-ac93-255d7b82979a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +61,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="456">
-                <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <first_editor relative-caret-position="882">
+                <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -114,8 +115,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="177" />
-    <option name="y" value="90" />
+    <option name="x" value="59" />
+    <option name="y" value="98" />
     <option name="width" value="1745" />
     <option name="height" value="949" />
   </component>
@@ -132,6 +133,11 @@
             <path>
               <item name="GithubDataVisualisation" type="b2602c69:ProjectViewProjectNode" />
               <item name="GithubDataVisualisation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GithubDataVisualisation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GithubDataVisualisation" type="462c0819:PsiDirectoryNode" />
+              <item name="Results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GithubDataVisualisation" type="b2602c69:ProjectViewProjectNode" />
@@ -239,12 +245,12 @@
       <workItem from="1543527565092" duration="30610000" />
       <workItem from="1543619900890" duration="23677000" />
       <workItem from="1543774803810" duration="2522000" />
-      <workItem from="1543777358008" duration="1112000" />
+      <workItem from="1543777358008" duration="1629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76258000" />
+    <option name="totallyTimeSpent" value="76775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -256,15 +262,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="177" y="90" width="1745" height="949" extended-state="0" />
+    <frame x="59" y="98" width="1745" height="949" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1768546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1768546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2769608" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2769608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990307" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,8 +387,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="456">
-            <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <first_editor relative-caret-position="882">
+            <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
           </first_editor>
           <second_editor />
         </state>
