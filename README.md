@@ -1,5 +1,8 @@
 # GithubDataVisualisation
 
+## Demo Video ##
+<img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/result%20display.gif" />
+
 ## Setting up ##
 You will need <a href="http://flask.pocoo.org/">Flask</a>, 
 <a href="https://pygithub.readthedocs.io/en/latest/introduction.html">PyGithub</a>, 
@@ -76,10 +79,6 @@ This is the snapshot of the result program.
 <img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res3.PNG">
 * Pie chart displaying repositories that uses the corresponding languages selected.<br />
 <img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res4.PNG">
-
-## Demo Video ##
-<img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/result%20display.gif" />
-
 
 ## Repo_Data2.json Link
 
