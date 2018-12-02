@@ -78,7 +78,7 @@ This is the snapshot of the result program.
 <img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res4.PNG">
 
 ## Demo Video ##
-<img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res4.PNG" />
+<img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/result%20display.gif" />
 
 
 ## Repo_Data2.json Link
