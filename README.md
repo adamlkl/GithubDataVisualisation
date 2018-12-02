@@ -7,7 +7,7 @@ You will need <a href="http://flask.pocoo.org/">Flask</a>,
 I have removed my access token to extract json information from Github, but if you want to try it,
 you can request for it at <a href="https://github.com/settings/tokens">Github Access Token Generator Page</a>
 
-## Running 
+## Running ##
 `python app.py`
 
 **_However, obviously this won't work by simply cloning my repo won't work._** As mentioned you need to download the above 
@@ -33,8 +33,7 @@ New project: selected Python interpreter will be used for the new project instea
 
 More explanation can be found at <a href="https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html">here</a>.
 
-
-
+## Assignment Explanation ##
 For this assignment, I have decided to compare the size of each repository in the <a href="https://www.google.ie/search?q=loomberg+github&oq=loomberg+github&aqs=chrome..69i57j0l5.4607j0j4&sourceid=chrome&ie=UTF-8">
 Bloomberg repository</a> and then the languages they have used. <br />
 
