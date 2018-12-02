@@ -9,11 +9,11 @@ you can request for it at <a href="https://github.com/settings/tokens">Github Ac
 
 ## Navigate to app.py from GithubDataVisualisation 
 
-'cd templates '
+`cd templates `
 
 ## Running 
 
-'python app.py'
+`python app.py`
 
 For this assignment, I have decided to compare the size of each repository in the <a href="https://www.google.ie/search?q=loomberg+github&oq=loomberg+github&aqs=chrome..69i57j0l5.4607j0j4&sourceid=chrome&ie=UTF-8">
 Bloomberg repository</a> and then the languages they have used. <br />
@@ -40,7 +40,7 @@ to take it out to restore the balance between arcs in the pie chart.
 
 ## Pie Chart Display ##
 
-'http://127.0.0.1:5000/'
+`http://127.0.0.1:5000/`
 
 This is the snapshot of the result program. 
 
@@ -54,7 +54,8 @@ To view the stored json values, please set your link to
 
 ## Repo_Data2.json Link
 
-'http://127.0.0.1:5000/bloombergdata/repo_data2'
+`http://127.0.0.1:5000/bloombergdata/repo_data2`
 
 The result should come as below.
 
+<img src="https://github.com/adamlkl/Computer-Architecture-II/blob/master/t1Test/T1Documentation/Tutorial1.png">
