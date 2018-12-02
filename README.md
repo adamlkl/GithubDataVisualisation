@@ -64,3 +64,9 @@ To view the stored json values, please set your link to
 The result should come as below. <br />
 
 <img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/repo_data2%20in%20json.PNG">
+
+## Remarks ##
+As this program is not what I envisioned in the first place, there will be more upgrades to it such as displaying it on 
+<a href="https://keen.github.io/dashboards/">dashboard</a>, displaying more data such as 
+<a href="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Contributors_Data.json">contributors</a>,
+and multiple repo together. So stay tuned. 
