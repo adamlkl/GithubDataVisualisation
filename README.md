@@ -7,10 +7,6 @@ You will need <a href="http://flask.pocoo.org/">Flask</a>,
 I have removed my access token to extract json information from Github, but if you want to try it,
 you can request for it at <a href="https://github.com/settings/tokens">Github Access Token Generator Page</a>
 
-## Navigate to app.py from GithubDataVisualisation 
-
-`cd templates `
-
 ## Running 
 
 `python app.py`

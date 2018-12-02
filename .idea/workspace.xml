@@ -60,8 +60,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="484">
-                <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <first_editor relative-caret-position="112">
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -132,16 +132,6 @@
             <path>
               <item name="GithubDataVisualisation" type="b2602c69:ProjectViewProjectNode" />
               <item name="GithubDataVisualisation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GithubDataVisualisation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GithubDataVisualisation" type="462c0819:PsiDirectoryNode" />
-              <item name="Results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GithubDataVisualisation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GithubDataVisualisation" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GithubDataVisualisation" type="b2602c69:ProjectViewProjectNode" />
@@ -244,12 +234,12 @@
       <workItem from="1543527565092" duration="30610000" />
       <workItem from="1543619900890" duration="23677000" />
       <workItem from="1543774803810" duration="2522000" />
-      <workItem from="1543777358008" duration="1954000" />
+      <workItem from="1543777358008" duration="2178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77100000" />
+    <option name="totallyTimeSpent" value="77324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,8 +376,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="484">
-            <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <first_editor relative-caret-position="112">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>
