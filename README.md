@@ -44,7 +44,9 @@ to take it out to restore the balance between arcs in the pie chart.
 
 This is the snapshot of the result program. 
 
-
+<img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20origin.PNG">
+<img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res1.PNG">
+<img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/pie%20res2.PNG">
 
 I have also set up a database for the project using mongodb to store repo_data2.json. The advantage of setting up a database
 is that eventually I wanted to display more than just one Github Repository, and this would require massive amount of fast 
@@ -58,4 +60,4 @@ To view the stored json values, please set your link to
 
 The result should come as below.
 
-<img src="https://github.com/adamlkl/Computer-Architecture-II/blob/master/t1Test/T1Documentation/Tutorial1.png">
+<img src="https://github.com/adamlkl/GithubDataVisualisation/blob/master/Results/repo_data2%20in%20json.PNG">
