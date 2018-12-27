@@ -18,6 +18,13 @@ def get_top_count(data, n=2, order=False):
         return OrderedDict(top)
     return dict(top)
 
+def crawler2():
+    g = Github(token)
+    user = g.get_user("Bloomberg")
+
+    repo_data = []
+
+
 # First create a Github instance using an access token
 def crawler():
     g = Github(token)
